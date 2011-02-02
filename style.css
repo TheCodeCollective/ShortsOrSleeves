@@ -1,0 +1,14 @@
+body{
+	padding:0;
+	margin:2px 0 2px 0;
+	background-color:gray;
+}
+
+div#container{
+	color:red;
+	background-color:white;
+	width:900px;
+	margin:0 auto 0 auto;
+	padding:10px;
+	height:100%;
+}
