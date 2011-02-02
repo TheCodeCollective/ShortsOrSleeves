@@ -25,7 +25,7 @@ if(array_key_exists($curPage,$pages)) {
     </head>
     <body>
 		<div id="container">
-			aaa
+			<img src="images/soslogo.png" width="139" height="70" alt="Soslogo">
 	
 		</div>
 	</body>
