@@ -1,4 +1,5 @@
 <?php
+//test comment
 $pages = array();
 
 $curPage = 'home';
