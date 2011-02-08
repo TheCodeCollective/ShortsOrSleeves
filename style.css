@@ -11,16 +11,14 @@ header{
 }
 
 #content{
-    margin:auto;
     border:1px solid black;
-    width:100%;
 }
 
 #content img{
-    margin: auto;
-    width: 200px;
-    border: 1px solid red;
+	display:block;
+	margin:0 auto 0 auto;
 }
+
 /*div#container{
 	color:red;
 	background-color:white;

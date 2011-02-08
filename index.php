@@ -29,7 +29,7 @@ if(array_key_exists($curPage,$pages)) {
 			<img src="images/soslogo.png" width="139" height="70" alt="Soslogo">
     </header>
     <div id="content">
-            <img alt="It's sunny!"  src ="images/sun.gif"/> 
+	 	<img src="images/sun.gif" width="200" height="200" alt="Sun">
     </div>
     </body>
 </html>
