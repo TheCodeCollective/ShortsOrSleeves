@@ -10,7 +10,39 @@ $mainContentFile = 'default.php';
 if(array_key_exists($curPage,$pages)) {
 	$mainContentFile = $pages[$curPage];
 }
+function objectsIntoArray($arrObjData, $arrSkipIndices = array())
+{
+    $arrData = array();
 
+    // if input is object, convert into array
+    if (is_object($arrObjData)) {
+        $arrObjData = get_object_vars($arrObjData);
+    }
+
+    if (is_array($arrObjData)) {
+        foreach ($arrObjData as $index => $value) {
+            if (is_object($value) || is_array($value)) {
+                $value = objectsIntoArray($value, $arrSkipIndices); // recursive call
+            }
+            if (in_array($index, $arrSkipIndices)) {
+                continue;
+            }
+            $arrData[$index] = $value;
+        }
+    }
+    return $arrData;
+}
+
+function parseFeed()
+{
+	$xmlUrl = "feed.xml"; // XML feed file/URL
+	$xmlStr = file_get_contents($xmlUrl);
+	$xmlObj = simplexml_load_string($xmlStr);
+	$arrXml = objectsIntoArray($xmlObj);
+	print_r($arrXml);
+	echo('done');
+	
+}
 
 ?>
 
@@ -34,6 +66,9 @@ if(array_key_exists($curPage,$pages)) {
 	 		<img src="images/sun.gif" width="200" height="200" alt="Sun">
 		</div>
     </div>
+<?php
+	parseFeed();
+?>
     </body>
 </html>
 
