@@ -14,7 +14,7 @@ if(array_key_exists($curPage,$pages)) {
 
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 5 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
     <head>
@@ -29,7 +29,10 @@ if(array_key_exists($curPage,$pages)) {
 			<img src="images/soslogo.png" width="139" height="70" alt="Soslogo">
     </header>
     <div id="content">
-	 	<img src="images/sun.gif" width="200" height="200" alt="Sun">
+		<div id='temp'>
+			<h3>78</h3>
+	 		<img src="images/sun.gif" width="200" height="200" alt="Sun">
+		</div>
     </div>
     </body>
 </html>
