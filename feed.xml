@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jobs>
+	<job>
+		<title>Database Developer</title>
+		<job-board-name>Sample Job Board</job-board-name>
+		<job-board-url>http://www.samplejobboardurl.com</job-board-url>
+		<job-code>99</job-code>
+		<detail-url>http://www.samplejobboardurl.com/view_job/post_id/99/Database-Developer</detail-url>
+		<apply-url>http://www.samplejobboardurl.com/apply_job/post_id/99/Database-Developer</apply-url>
+		<job-category>Information Technology</job-category>
+		<description>
+			<summary><![CDATA[Our client is a worldwide leader in the development and manufacturing of factory automation equipment ranging from automation sensors, measuring instruments, vision systems, laser markers and digital microscopes. Located in beautiful surroundings in Northern NJ, our client is seeking a Database Developer/DBA. This is a permanent position. The candidate must have experience with Microsoft SQL, 2000/2005/2008, VB.net and ASP. There will be about 80% coding in .NET.
+			Will develop new applications (80%), administer, maintain, and implement optimal policies and procedures for ensuring the security and integrity of the company databases. Resolve a range of issues concerning database performance and capacity or reporting systems. Work with end users to ensure the current data systems as well as future development of new systems that meet their business objectives and needs.
+			Principal duties and tasks; Monitor parent company periodic updates of local databases.]]></summary>
+			<required-skills><![CDATA[.NET/VB/C++]]></required-skills>
+			<required-education>BS in Computer Science</required-education>
+			<required-experience>2~5 years</required-experience>
+			<!-- below are all boolean -->
+			<full-time>1</full-time>
+			<part-time></part-time>
+			<flex-time></flex-time>
+			<internship></internship>
+			<volunteer></volunteer>
+			<exempt></exempt>
+			<contract></contract>
+			<permanent></permanent>
+			<temporary></temporary>
+			<telecommute></telecommute>
+		</description>
+		<compensation>
+			<salary-range>$80,000~$10,000</salary-range>
+			<salary-amount>$85,000</salary-amount>
+			<salary-currency></salary-currency>
+			<benefits>Medical, Dental, Vision, Life, 401K, and Product Discounts</benefits>
+		</compensation>
+		<!--date in Unix format: yyyy/MM/dd -->
+		<posted-date>2010/02/22</posted-date>
+		<close-date>2011/02/23</close-date>
+		<location>
+			<address>12345 Washington Avenue, North Bergen, NJ 07047</address>
+			<city>North Bergen</city>
+			<state>New Jersey</state>
+			<zip>07047</zip>
+			<country>US</country>
+		</location>
+		<contact>
+			<name>John Doe</name>
+			<email>jdoe@samplejobboardurl.com</email>
+			<hiring-manager-name>John Doe</hiring-manager-name>
+			<hiring-manager-email>jdoe@samplejobboardurl.com</hiring-manager-email>
+			<phone>123-456-7890</phone>
+			<fax>123-456-7891</fax>
+		</contact>
+		<company>
+			<name>Test Company</name>
+			<description><![CDATA[We run a virtual environment. As a result, some of our employers work remotely.]]></description>
+			<industry>Manufacturing</industry>
+			<url>http://www.samplejobboardurl.com</url>
+		</company>
+	</job>
+	<job>
+		<title>Financial Advisor</title>
+		<job-board-name></job-board-name>
+		<job-board-url></job-board-url>
+		<job-code>846</job-code>
+		<detail-url>http://www.samplecompanysite.com/view_job/post_id/846/Sales/</detail-url>
+		<apply-url>http://www.samplecompanysite.com/apply_job/post_id/846/Sales/</apply-url>
+		<job-category>Sales</job-category>
+		<description>
+			<summary><![CDATA[We have been helping people navigate through some of life's most challenging financial issues since 1937. A premier financial services company, we are one of the nation's most enduring mutual fund/financial planning firms. Our focus? Long-term, one-on-one relationships in which our financial advisors interact with clients in the communities where they live.
+			We're looking for successful and dedicated professionals with a caring and responsible approach to join our team of financial advisors in Charlotte. We offer a proven and comprehensive approach to financial planning, products, marketing support, professional development, and practice development. In addition, our financial advisors are very well supported throughout their experience - including our local office culture, dedicated home office support, tools, compensation programs, successful track records, caring people at all levels, dedicated management, and honest approach at doing business.
+			
+			Requirements
+			
+			You are a professional with at least 4 years of experience, are legally authorized to work full-time in the Unites States, and possess the following:
+			
+			Marketing/business development aptitude
+			Entrepreneurial spirit with a strong work ethic
+			Excellent interpersonal skills and high level of integrity
+			Competitive drive and achievement oriented
+			High degree of self-confidence and empathy
+			A bachelor's degree or equivalent education is expected
+			An MBA, CPA, or CFP is valued.
+			
+			Are you looking for a success track where you enjoy your career and are rewarded for your performance? Do you excel with people by speaking honestly and focusing on the clients' needs? Are you willing to work hard and effectively in order to build a successful financial planning practice? If so, please visit our company website.]]></summary>
+			<required-skills><![CDATA[
+			* Bachelors' degree, and/or advanced degree, in business or related field.
+			* Minimum of 5-7 years outside sales experience, selling business to business products or services.
+			* Minimum of 3-5 years of sales management experience.
+			* Must be able to demonstrate strong negotiation skills.]]></required-skills>
+			<required-education>Bachelor</required-education>
+			<required-experience><![CDATA[4 years]]></required-experience>
+			<!-- below are all boolean -->
+			<full-time></full-time>
+			<part-time>1</part-time>
+			<flex-time></flex-time>
+			<internship></internship>
+			<volunteer></volunteer>
+			<exempt></exempt>
+			<contract></contract>
+			<permanent></permanent>
+			<temporary></temporary>
+			<telecommute></telecommute>
+		</description>
+		<compensation>
+			<salary-range>$20,000~$30,000</salary-range>
+			<salary-amount>$25,000</salary-amount>
+			<salary-currency></salary-currency>
+			<benefits>free lunch</benefits>
+		</compensation>
+		<posted-date>2010/02/19</posted-date>
+		<close-date>2011/02/20</close-date>
+		<location>
+			<address>111 First Street, Sunnyvale, CA 94089</address>
+			<city>Sunnyvale</city>
+			<state>CA</state>
+			<zip>94089</zip>
+			<country>US</country>
+		</location>
+		<contact>
+			<name>Jane Doe</name>
+			<email>janedoe@samplecompanysite.com</email>
+			<hiring-manager-name>Jane Doe </hiring-manager-name>
+			<hiring-manager-email>janedoe@samplecompanysite.com</hiring-manager-email>
+			<phone>630-123-4567</phone>
+			<fax>630-123-1111</fax>
+		</contact>
+		<company>
+			<name><![CDATA[Jane Doe]]></name>
+			<description><![CDATA[We are an international company that have employers over 11 countries.]]></description>
+			<industry>Finance</industry>
+			<url>http://www.samplecompanysite.com</url>
+		</company>
+	</job>
+</jobs>

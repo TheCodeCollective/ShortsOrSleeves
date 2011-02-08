@@ -11,12 +11,32 @@ header{
 }
 
 #content{
-    border:1px solid black;
+    
 }
 
-#content img{
-	display:block;
+#temp{
+	width:380px;
+	height: 220px;
 	margin:0 auto 0 auto;
+}
+
+#temp h3{
+	float:left;
+	font-size: 80px;
+	padding-right:20px;
+}
+
+#temp h3::after{
+	font-size:30px;
+	vertical-align:top;
+	content:'o';
+}
+
+#temp img{
+	float:left;
+	display:block;
+	margin-top:20px;
+	
 }
 
 /*div#container{
