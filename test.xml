@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jobs>
+    <job>
+		<title>Database Developer</title>
+		<job-board-name>Sample Job Board</job-board-name>
+		<job-code>99</job-code>
+		<description>
+			<summary></summary>
+			<full-time>1</full-time>
+		</description>
+      </job>
+</jobs>

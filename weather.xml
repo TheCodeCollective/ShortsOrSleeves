@@ -1,0 +1,90 @@
+
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Durham, North Carolina Weather</title>
+        <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+        <description><![CDATA[Current weather, forecasts and alerts delivered using RSS.<p>The weather information for this RSS feed is taken from the National Weather Service (http://weather.noaa.gov/), and powered by HamWeather (http://www.hamweather.com/). </p><h2>Using the Feeds</h2><ul><li>Request Frequency - The feeds are updated once per hour.  More frequent requests may result in your access being limited.</li><li>Web Site Usage - If you are using the feed on your web site, you are required to maintain a link to rssWeather.com and hamweather.com</li></ul></b></p>]]>
+        </description>
+        <ttl>60</ttl>
+        <generator>HamWeather (http://www.hamweather.com/)</generator>
+        <language>en</language>
+        <item>
+            <title>Durham, North Carolina Weather :: 47F Mostly clear</title>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <category>Current Conditions</category>
+            <pubDate>Mon, 07 Feb 2011 18:56:00 -0500</pubDate>
+            <description>47F Mostly clear</description>
+            <content:encoded><![CDATA[<h4><a href="http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss" title="Durham, North Carolina Weather weather forecast"><img src="http://rssweather.cachefly.net/images/fcicons/sunnyn.png" alt="mostly clear" class="icon" width="55" height="58" id="sunnyn.png" border="0"/></a><span class="sky">Mostly clear</span> <span class="temp">47&#176;F</span></h4><dl style="display: inline;">
+<dt style="display: inline; font-weight: bold;">Humidity:</dt><dd id="humidity" style="display: inline;">70%</dd>
+<dt style="display: inline; font-weight: bold;">Wind Speed:</dt><dd id="windspeed" style="display: inline;">3 MPH</dd>
+<dt style="display: inline; font-weight: bold;">Wind Direction:</dt><dd id="winddir" style="display: inline;">VRB </dd>
+<dt style="display: inline; font-weight: bold;">Barometer:</dt><dd id="pressure" style="display: inline;"> 29.77 in.</dd>
+<dt style="display: inline; font-weight: bold;">Dewpoint:</dt><dd id="dewpoint" style="display: inline;">38&#176;F</dd>
+<dt style="display: inline; font-weight: bold;">Heat Index:</dt><dd id="heatindex" style="display: inline;">46&#176;F</dd>
+<dt style="display: inline; font-weight: bold;">Wind Chill:</dt><dd id="windchill" style="display: inline;">46&#176;F</dd>
+<dt style="display: inline; font-weight: bold;">Visibility:</dt><dd id="visibility" style="display: inline;">10 mi</dd></dl>]]>
+            </content:encoded>
+            <guid isPermaLink="false">C-1856 EST MON FEB 7 2011</guid>
+        </item>
+        <item>
+            <title>Forecast for Tonight</title>
+            <category>Weather Forecast</category>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <description>Rain likely. Lows in the mid 30s. Southwest winds 5 to
+10 mph. Chance of rain 70 percent.
+            </description>
+            <pubDate>Mon, 07 Feb 2011 15:44:00 -0500</pubDate>
+            <guid isPermaLink="false">F-KIGX-344 PM EST MON FEB 07 2011-TONIGHT</guid>
+        </item>
+        <item>
+            <title>Forecast for Tuesday</title>
+            <category>Weather Forecast</category>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <description>Mostly sunny. Highs in the upper 40s. Northwest winds
+around 15 mph with gusts up to 25 mph.
+            </description>
+            <pubDate>Mon, 07 Feb 2011 15:44:00 -0500</pubDate>
+            <guid isPermaLink="false">F-KIGX-344 PM EST MON FEB 07 2011-TUESDAY</guid>
+        </item>
+        <item>
+            <title>Forecast for Tuesday Night</title>
+            <category>Weather Forecast</category>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <description>Partly cloudy. Colder with lows in the lower
+20s. Northwest winds 5 to 10 mph.
+            </description>
+            <pubDate>Mon, 07 Feb 2011 15:44:00 -0500</pubDate>
+            <guid isPermaLink="false">F-KIGX-344 PM EST MON FEB 07 2011-TUESDAY NIGHT</guid>
+        </item>
+        <item>
+            <title>Forecast for Wednesday</title>
+            <category>Weather Forecast</category>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <description>Partly sunny. Highs in the mid 40s. Northwest winds
+around 5 mph. Becoming southwest around 5 mph in the afternoon.
+            </description>
+            <pubDate>Mon, 07 Feb 2011 15:44:00 -0500</pubDate>
+            <guid isPermaLink="false">F-KIGX-344 PM EST MON FEB 07 2011-WEDNESDAY</guid>
+        </item>
+        <item>
+            <title>Forecast for Wednesday Night</title>
+            <category>Weather Forecast</category>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <description>Cloudy. A chance of snow. Mainly after
+midnight. Cold with lows in the upper 20s. Light and variable
+winds. Becoming north around 5 mph after midnight. Chance of
+snow 40 percent. 
+            </description>
+            <pubDate>Mon, 07 Feb 2011 15:44:00 -0500</pubDate>
+            <guid isPermaLink="false">F-KIGX-344 PM EST MON FEB 07 2011-WEDNESDAY NIGHT</guid>
+        </item>
+        <item>
+            <title>Forecast for Thursday</title>
+            <category>Weather Forecast</category>
+            <link>http://www.rssweather.com/hw3.php?place=durham&amp;state=nc&amp;country=us&amp;utm_source=rss&amp;utm_medium=rss</link>
+            <description>Cloudy. A chance of snow. Mainly in the morning. Highs in the upper 30s. Chance of snow 40 percent. </description>
+            <pubDate>Mon, 07 Feb 2011 15:44:00 -0500</pubDate>
+            <guid isPermaLink="false">F-KIGX-344 PM EST MON FEB 07 2011-THURSDAY</guid>
+        </item>
+    </channel>
+</rss>

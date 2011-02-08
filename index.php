@@ -10,7 +10,8 @@ $mainContentFile = 'default.php';
 if(array_key_exists($curPage,$pages)) {
 	$mainContentFile = $pages[$curPage];
 }
-function objectsIntoArray($arrObjData, $arrSkipIndices = array())
+
+function objectsIntoArray($arrObjData)
 {
     $arrData = array();
 
@@ -22,10 +23,7 @@ function objectsIntoArray($arrObjData, $arrSkipIndices = array())
     if (is_array($arrObjData)) {
         foreach ($arrObjData as $index => $value) {
             if (is_object($value) || is_array($value)) {
-                $value = objectsIntoArray($value, $arrSkipIndices); // recursive call
-            }
-            if (in_array($index, $arrSkipIndices)) {
-                continue;
+                $value = objectsIntoArray($value); // recursive call
             }
             $arrData[$index] = $value;
         }
@@ -35,12 +33,13 @@ function objectsIntoArray($arrObjData, $arrSkipIndices = array())
 
 function parseFeed()
 {
-	$xmlUrl = "feed.xml"; // XML feed file/URL
+	$xmlUrl = "weather.xml"; // XML feed file/URL
 	$xmlStr = file_get_contents($xmlUrl);
 	$xmlObj = simplexml_load_string($xmlStr);
 	$arrXml = objectsIntoArray($xmlObj);
-	print_r($arrXml);
-	echo('done');
+	print_r($arrXml[channel][item][0][description]); //prints the weather dynamically gotten...put it in h3
+	echo 'done <br/>';
+    //print_r( $arrXML[channel][ite);
 	
 }
 
