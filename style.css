@@ -1,14 +1,31 @@
 body{
 	padding:0;
 	margin:2px 0 2px 0;
-	background-color:gray;
+	background-color:white;
+    width:100%;
 }
 
-div#container{
+header{
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
+#content{
+    margin:auto;
+    border:1px solid black;
+    width:100%;
+}
+
+#content img{
+    margin: auto;
+    width: 200px;
+    border: 1px solid red;
+}
+/*div#container{
 	color:red;
 	background-color:white;
-	width:900px;
+	width:px;
 	margin:0 auto 0 auto;
 	padding:10px;
 	height:100%;
-}
+}*/

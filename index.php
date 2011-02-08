@@ -1,4 +1,5 @@
 <?php
+//test comment
 $pages = array();
 
 $curPage = 'home';
@@ -24,10 +25,12 @@ if(array_key_exists($curPage,$pages)) {
         <title>Shorts Or Sleeves</title>
     </head>
     <body>
-		<div id="container">
+    <header>
 			<img src="images/soslogo.png" width="139" height="70" alt="Soslogo">
-	
-		</div>
-	</body>
+    </header>
+    <div id="content">
+            <img alt="It's sunny!"  src ="images/sun.gif"/> 
+    </div>
+    </body>
 </html>
 
