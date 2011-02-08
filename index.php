@@ -22,6 +22,18 @@ if(array_key_exists($curPage,$pages)) {
 		<meta name="author" content="The Code Collective">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link type='text/css' rel='stylesheet' href='style.css' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript"></script>
+
+        <script src="Scripts/jgcharts/jgcharts.js" type="text/javascript"></script>
+
+
+        <script>
+             jQuery(document).ready(function($) {
+                 var api = new jGCharts.Api();
+                 jQuery('<img>').attr('src', api.make({data : [[153], [113], [120]]})).appendTo("#tempGraph");
+
+            });
+        </script>
         <title>Shorts Or Sleeves</title>
     </head>
     <body>
@@ -30,6 +42,7 @@ if(array_key_exists($curPage,$pages)) {
     </header>
     <div id="content">
 	 	<img src="images/sun.gif" width="200" height="200" alt="Sun">
+    <div id="tempGraph"></div>
     </div>
     </body>
 </html>
